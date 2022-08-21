@@ -1,0 +1,73 @@
+rover_one:
+    # based on https://wiki.ros.org/ros_control this controller reads the state 
+    # of all the joints
+    joint_state_controller:
+        type: joint_state_controller/JointStateController
+        publish_rate: 20
+
+    left_rocker_to_servo_mount_1_joint_position_controller:
+        #this controller recieves position and via PID it takes care of the effort
+        # needed to move the joint. based on https://wiki.ros.org/ros_control
+        type: position_controllers/JointPositionController
+        # type: velocity_controllers/JointVelocityController
+        # type: velocity_controllers/JointPositionController
+        #type: effort_controllers/JointVelocityController
+        joint: left_rocker_to_servo_mount_1_joint
+        pid: {p: 1.0, i: 0.0, d: 0.0}
+
+    left_bogie_to_servo_mount_2_joint_position_controller:
+        type: position_controllers/JointPositionController
+        joint: left_bogie_to_servo_mount_2_joint
+        pid: {p: 1.0, i: 0.0, d: 0.0}
+
+    left_bogie_to_servo_mount_3_joint_position_controller:
+        type: position_controllers/JointPositionController
+        joint: left_bogie_to_servo_mount_3_joint
+        pid: {p: 1.0, i: 0.0, d: 0.0}
+
+    right_rocker_to_servo_mount_4_joint_position_controller:
+        type: position_controllers/JointPositionController
+        joint: right_rocker_to_servo_mount_4_joint
+        pid: {p: 1.0, i: 0.0, d: 0.0}
+
+    right_bogie_to_servo_mount_5_joint_position_controller:
+        type: position_controllers/JointPositionController
+        joint: right_bogie_to_servo_mount_5_joint
+        pid: {p: 1.0, i: 0.0, d: 0.0}
+
+    right_bogie_to_servo_mount_6_joint_position_controller:
+        type: position_controllers/JointPositionController
+        joint: right_bogie_to_servo_mount_6_joint
+        pid: {p: 1.0, i: 0.0, d: 0.0}
+
+    servo_mount_1_to_wheel_1_joint_velocity_controller:
+        type: velocity_controllers/JointVelocityController
+        joint: servo_mount_1_to_wheel_1_joint
+        pid: {p: 1.0, i: 0.0, d: 0.0}
+
+    servo_mount_2_to_wheel_2_joint_velocity_controller:
+        type: velocity_controllers/JointVelocityController
+        joint: servo_mount_2_to_wheel_2_joint
+        pid: {p: 1.0, i: 0.0, d: 0.0}
+
+    servo_mount_3_to_wheel_3_joint_velocity_controller:
+        type: velocity_controllers/JointVelocityController
+        joint: servo_mount_3_to_wheel_3_joint
+        pid: {p: 1.0, i: 0.0, d: 0.0}
+
+    servo_mount_4_to_wheel_4_joint_velocity_controller:
+        type: velocity_controllers/JointVelocityController
+        joint: servo_mount_4_to_wheel_4_joint
+        pid: {p: 1.0, i: 0.0, d: 0.0}
+
+    servo_mount_5_to_wheel_5_joint_velocity_controller:
+        type: velocity_controllers/JointVelocityController
+        joint: servo_mount_5_to_wheel_5_joint
+        pid: {p: 1.0, i: 0.0, d: 0.0}
+
+    servo_mount_6_to_wheel_6_joint_velocity_controller:
+        type: velocity_controllers/JointVelocityController
+        joint: servo_mount_6_to_wheel_6_joint
+        pid: {p: 1.0, i: 0.0, d: 0.0}
+
+    

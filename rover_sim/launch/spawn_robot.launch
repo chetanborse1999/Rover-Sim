@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+    <!-- add the Gazebo world so that we launch it all together-->
+    <arg name="model" default="$(find rover_sim)/urdf/rover_one_sdf.sdf"/>
+    <arg name="world" default="empty"/> 
+    <arg name="paused" default="true"/>
+    <arg name="use_sim_time" default="true"/>
+    <arg name="gui" default="true"/>
+    <arg name="headless" default="false"/>
+    <arg name="debug" default="false"/>
+    <arg name="verbose" value="true"/>
+
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find rover_sim)/worlds/simple.world"/>
+    <arg name="paused" value="$(arg paused)"/>
+    <arg name="use_sim_time" value="$(arg use_sim_time)"/>
+    <arg name="gui" value="$(arg gui)"/>
+    <arg name="headless" value="$(arg headless)"/>
+    <arg name="debug" value="$(arg debug)"/>
+    <!--by activating "verbose" mode, Gazebo prints more to terminal on launch.-->
+    <arg name="verbose" value="$(arg verbose)"/>
+    </include>
+
+    <!--load urdf into parameter server-->
+    <param name="robot_description" textfile="$(find rover_sim)/urdf/rover_one.urdf" />
+    <param name="robot_description_sdf" textfile="$(find rover_sim)/urdf/rover_one_sdf.sdf" />
+	
+    <node name="urdf_spawner" 
+          pkg="gazebo_ros" 
+          type="spawn_model" 
+          respawn="false" 
+          output="screen" 
+          args="-sdf -param robot_description_sdf -model rover_one -x 0 -y 0 -z 1.2"/>
+
+    <!-- load the controllers -->
+    
+    <rosparam file="$(find rover_sim)/config/config.yaml" command="load"/>
+
+    <node name="controller_spawner" 
+          pkg ="controller_manager" 
+          type="spawner" 
+          ns="/rover_one" 
+          args="left_rocker_to_servo_mount_1_joint_position_controller servo_mount_1_to_wheel_1_joint_velocity_controller
+                left_bogie_to_servo_mount_2_joint_position_controller servo_mount_2_to_wheel_2_joint_velocity_controller
+                left_bogie_to_servo_mount_3_joint_position_controller servo_mount_3_to_wheel_3_joint_velocity_controller
+                right_rocker_to_servo_mount_4_joint_position_controller servo_mount_4_to_wheel_4_joint_velocity_controller
+                right_bogie_to_servo_mount_5_joint_position_controller servo_mount_5_to_wheel_5_joint_velocity_controller
+                right_bogie_to_servo_mount_6_joint_position_controller servo_mount_6_to_wheel_6_joint_velocity_controller 
+                joint_state_controller"/>
+    
+	<!-- converts joint states to TF transforms -->
+  
+    <node name="robot_state_publisher" 
+          pkg="robot_state_publisher" 
+          type="robot_state_publisher" 
+          respawn="false" 
+          output="screen">
+        <remap from="joint_states" to="/rover_one/joint_states" />
+    </node>
+  
+</launch>
