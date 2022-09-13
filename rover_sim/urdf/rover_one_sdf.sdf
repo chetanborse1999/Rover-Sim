@@ -24,7 +24,7 @@
         <geometry>
           <mesh>
             <scale>0.01 0.01 0.01</scale>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/body.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/body.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -40,7 +40,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/body.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/body.stl</uri>
             <scale>0.01 0.01 0.01</scale>
           </mesh>
         </geometry>
@@ -113,7 +113,7 @@
         <geometry>
           <mesh>
             <scale>0.01 0.01 0.01</scale>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/diff_bar.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/diff_bar.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -129,7 +129,7 @@
         <pose>0 0 -0.2 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/diff_bar.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/diff_bar.stl</uri>
             <scale>0.01 0.01 0.01</scale>
           </mesh>
         </geometry>
@@ -202,7 +202,7 @@
         <geometry>
           <mesh>
             <scale>0.01 0.01 0.01</scale>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/bogie.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/bogie.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -217,7 +217,7 @@
         <pose>0 -0.18 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/bogie.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/bogie.stl</uri>
             <scale>0.01 0.01 0.01</scale>
           </mesh>
         </geometry>
@@ -290,7 +290,7 @@
         <geometry>
           <mesh>
             <scale>0.01 0.01 0.01</scale>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/rocker.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/rocker.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -305,7 +305,7 @@
         <pose>0 -0.1 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/rocker.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/rocker.stl</uri>
             <scale>0.01 0.01 0.01</scale>
           </mesh>
         </geometry>
@@ -378,7 +378,7 @@
         <geometry>
           <mesh>
             <scale>0.01 0.01 0.01</scale>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/link.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/link.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -394,7 +394,7 @@
         <pose>0.1 -0.05 0.1 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/link.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/link.stl</uri>
             <scale>0.01 0.01 0.01</scale>
           </mesh>
         </geometry>
@@ -467,7 +467,7 @@
         <geometry>
           <mesh>
             <scale>0.01 0.01 0.01</scale>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/link.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/link.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -483,7 +483,7 @@
         <pose>0.1 -0.05 0.1 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/link.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/link.stl</uri>
             <scale>0.01 0.01 0.01</scale>
           </mesh>
         </geometry>
@@ -556,7 +556,7 @@
         <geometry>
           <mesh>
             <scale>0.01 0.01 0.01</scale>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/pivot.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/pivot.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -572,7 +572,7 @@
         <pose>0 -0.1 0 -1.57079 1.57079 3.14159</pose>
         <geometry>
           <mesh>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/pivot.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/pivot.stl</uri>
             <scale>0.01 0.01 0.01</scale>
           </mesh>
         </geometry>
@@ -645,7 +645,7 @@
         <geometry>
           <mesh>
             <scale>0.01 0.01 0.01</scale>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/pivot.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/pivot.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -661,7 +661,7 @@
         <pose>0 0.1 0 1.57079 1.57079 3.14159</pose>
         <geometry>
           <mesh>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/pivot.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/pivot.stl</uri>
             <scale>0.01 0.01 0.01</scale>
           </mesh>
         </geometry>
@@ -734,7 +734,7 @@
         <geometry>
           <mesh>
             <scale>0.01 0.01 0.01</scale>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/pivot.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/pivot.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -749,7 +749,7 @@
         <pose>0 0 0.1 0 -0 1.57079</pose>
         <geometry>
           <mesh>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/pivot.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/pivot.stl</uri>
             <scale>0.01 0.01 0.01</scale>
           </mesh>
         </geometry>
@@ -822,7 +822,7 @@
         <geometry>
           <mesh>
             <scale>0.01 0.01 0.01</scale>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/pivot.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/pivot.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -837,7 +837,7 @@
         <pose>0 0 0.1 0 -0 1.57079</pose>
         <geometry>
           <mesh>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/pivot.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/pivot.stl</uri>
             <scale>0.01 0.01 0.01</scale>
           </mesh>
         </geometry>
@@ -910,7 +910,7 @@
         <geometry>
           <mesh>
             <scale>0.01 0.01 0.01</scale>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/bogie.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/bogie.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -925,7 +925,7 @@
         <pose>0 0.18 0 0 -0 3.14159</pose>
         <geometry>
           <mesh>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/bogie.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/bogie.stl</uri>
             <scale>0.01 0.01 0.01</scale>
           </mesh>
         </geometry>
@@ -998,7 +998,7 @@
         <geometry>
           <mesh>
             <scale>0.01 0.01 0.01</scale>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/rocker_mirrored.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/rocker_mirrored.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -1013,7 +1013,7 @@
         <pose>0 0.1 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/rocker_mirrored.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/rocker_mirrored.stl</uri>
             <scale>0.01 0.01 0.01</scale>
           </mesh>
         </geometry>
@@ -1086,7 +1086,7 @@
         <geometry>
           <mesh>
             <scale>0.01 0.01 0.01</scale>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/servo_mount.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/servo_mount.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -1101,7 +1101,7 @@
         <pose>0 0 0.1 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/servo_mount.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/servo_mount.stl</uri>
             <scale>0.01 0.01 0.01</scale>
           </mesh>
         </geometry>
@@ -1174,7 +1174,7 @@
         <geometry>
           <mesh>
             <scale>0.01 0.01 0.01</scale>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/servo_mount.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/servo_mount.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -1189,7 +1189,7 @@
         <pose>0 0 0.1 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/servo_mount.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/servo_mount.stl</uri>
             <scale>0.01 0.01 0.01</scale>
           </mesh>
         </geometry>
@@ -1262,7 +1262,7 @@
         <geometry>
           <mesh>
             <scale>0.01 0.01 0.01</scale>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/servo_mount.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/servo_mount.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -1277,7 +1277,7 @@
         <pose>0 0 0.1 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/servo_mount.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/servo_mount.stl</uri>
             <scale>0.01 0.01 0.01</scale>
           </mesh>
         </geometry>
@@ -1350,7 +1350,7 @@
         <geometry>
           <mesh>
             <scale>0.01 0.01 0.01</scale>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/servo_mount.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/servo_mount.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -1365,7 +1365,7 @@
         <pose>0 0 0.1 0 -0 3.14159</pose>
         <geometry>
           <mesh>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/servo_mount.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/servo_mount.stl</uri>
             <scale>0.01 0.01 0.01</scale>
           </mesh>
         </geometry>
@@ -1438,7 +1438,7 @@
         <geometry>
           <mesh>
             <scale>0.01 0.01 0.01</scale>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/servo_mount.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/servo_mount.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -1453,7 +1453,7 @@
         <pose>0 0 0.1 0 -0 3.14159</pose>
         <geometry>
           <mesh>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/servo_mount.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/servo_mount.stl</uri>
             <scale>0.01 0.01 0.01</scale>
           </mesh>
         </geometry>
@@ -1526,7 +1526,7 @@
         <geometry>
           <mesh>
             <scale>0.01 0.01 0.01</scale>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/servo_mount.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/servo_mount.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -1541,7 +1541,7 @@
         <pose>0 0 0.1 0 -0 3.14159</pose>
         <geometry>
           <mesh>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/servo_mount.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/servo_mount.stl</uri>
             <scale>0.01 0.01 0.01</scale>
           </mesh>
         </geometry>
@@ -1614,7 +1614,7 @@
         <geometry>
           <mesh>
             <scale>0.01 0.01 0.01</scale>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/wheel.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/wheel.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -1629,7 +1629,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/wheel.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/wheel.stl</uri>
             <scale>0.01 0.01 0.01</scale>
           </mesh>
         </geometry>
@@ -1702,7 +1702,7 @@
         <geometry>
           <mesh>
             <scale>0.01 0.01 0.01</scale>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/wheel.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/wheel.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -1717,7 +1717,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/wheel.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/wheel.stl</uri>
             <scale>0.01 0.01 0.01</scale>
           </mesh>
         </geometry>
@@ -1790,7 +1790,7 @@
         <geometry>
           <mesh>
             <scale>0.01 0.01 0.01</scale>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/wheel.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/wheel.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -1805,7 +1805,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/wheel.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/wheel.stl</uri>
             <scale>0.01 0.01 0.01</scale>
           </mesh>
         </geometry>
@@ -1878,7 +1878,7 @@
         <geometry>
           <mesh>
             <scale>0.01 0.01 0.01</scale>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/wheel.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/wheel.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -1893,7 +1893,7 @@
         <pose>0 0 0 0 -0 3.14159</pose>
         <geometry>
           <mesh>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/wheel.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/wheel.stl</uri>
             <scale>0.01 0.01 0.01</scale>
           </mesh>
         </geometry>
@@ -1966,7 +1966,7 @@
         <geometry>
           <mesh>
             <scale>0.01 0.01 0.01</scale>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/wheel.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/wheel.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -1981,7 +1981,7 @@
         <pose>0 0 0 0 -0 3.14159</pose>
         <geometry>
           <mesh>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/wheel.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/wheel.stl</uri>
             <scale>0.01 0.01 0.01</scale>
           </mesh>
         </geometry>
@@ -2054,7 +2054,7 @@
         <geometry>
           <mesh>
             <scale>0.01 0.01 0.01</scale>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/wheel.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/wheel.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -2069,7 +2069,7 @@
         <pose>0 0 0 0 -0 3.14159</pose>
         <geometry>
           <mesh>
-            <uri>/home/aiden/repo/Rover-Sim/rover_sim/meshes/wheel.stl</uri>
+            <uri>/home/user/Rover-Sim/rover_sim/meshes/wheel.stl</uri>
             <scale>0.01 0.01 0.01</scale>
           </mesh>
         </geometry>
