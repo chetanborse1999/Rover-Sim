@@ -16,5 +16,12 @@
       <uri>model://sun</uri>
     </include>
 
+    <gui>
+      <camera name="user_camera">
+        <projection_type>orthographic</projection_type>
+        <pose>1.277 2.268 2.183 0 0.543 -2.173</pose>
+      </camera>
+    </gui>
+
   </world>
 </sdf>
